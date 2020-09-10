@@ -1,0 +1,403 @@
+/*-------------------------------------LOGIN-----------------------------------*/
+.container_login
+{
+    position: relative;
+   opacity: 0.8;
+    height: 400px;
+    width: 1200px;
+    position: relative;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 160px;
+}
+.fb_btn
+{
+   width: 30%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #3B5998;
+  color: white;
+  margin-top: 65px;
+ margin-left: 100px;
+}
+.twitter_btn
+{
+   width: 30%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #55ACEE;
+  color: white;
+  margin-top: 30px;
+ margin-left: 100px;
+}
+.google_btn
+{
+   width: 30%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #dd4b39;
+  color: white;
+  margin-top: 30px;
+ margin-left: 100px;
+}
+.user
+{
+   margin-left: 260px;
+  width: 30%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: white;
+  color:black;
+}
+.password
+{
+    margin-left: 260px;
+  width: 30%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+.submit
+{
+    margin-left: 260px;
+  width: 30%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: greenyellow;
+  color: white;
+}
+.vl {
+  position: absolute;
+  left: 50%;
+  margin-top: 64px;
+  transform: translate(-50%);
+  border: 2px solid white;
+  height: 190px;
+}
+.signup
+{
+    position: relative;
+   opacity: 0.9;
+    margin-top: 5px;
+  margin-left: 179px;
+  width: 38%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+.forget
+{
+    position: relative;
+    opacity: 0.9;
+  width: 38%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+.bg-img-login
+{
+     background-image: url("images/login1.jpg");
+ overflow: hidden;
+  /* Control the height of the image */
+   height: 100%; 
+   width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+/*-----------------------------------------------------------------------------------------*/
+/*---------------------------------SIGNUP-----------------------------------------------*/
+.input_signup
+{
+  
+  margin-left: 20px;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 270px ;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;    
+}
+.container_signup
+{
+     opacity: 0.9;
+    position: relative;
+    height: 1000px;
+    width: 1000px;
+    position: relative;
+    background-color: lightsalmon;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.submit_btn
+{
+  
+   width: 30%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  margin-top: 65px;
+ margin-left: 5px;
+}
+.bg-img-sign
+{
+     background-image: url("images/dress.jpg");
+
+  /* Control the height of the image */
+   height: 1100px; 
+   width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+/*------------------------------------------------------------------------------------*/
+/*---------------------------Footer---------------------------------------------*/
+.foot
+{
+    color: white;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+   
+}
+
+.foot > .smallfoot
+{
+   
+    height: 70px;
+    width: 100%;
+    margin-top: 5px;
+    
+}
+
+.foo_btn
+{
+    
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+}
+
+.foot > .xfoot
+{
+  
+    height: 70px;
+    width: 100%;
+    margin-top: 25px;
+}
+.fa
+{
+  margin-left: 90px;  
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover 
+{
+  opacity: 0.7;
+}
+
+.fa-facebook 
+{
+    
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter
+{
+    margin-left: 10px;
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram
+{
+    margin-left: 10px;
+   background: #f09433; 
+   background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+   color: white
+}
+/*--------------------------------------------------------------------------------*/
+
+/*---------------------About us-----------------------------------------------*/
+.column_style
+{
+    width: 33%;
+}
+.img_about
+{
+    height:33% ;
+    width:80%;
+}
+/*------------------------------------------------------------------------------*/
+/*-----------------------Settings----------------------------------------------*/
+.settings_container
+{
+    height: 500px;
+    width: 1000px;
+    position: relative;
+    background-color: lightseagreen;
+    margin-top: 50px;
+    position: relative;
+    margin-left: 250px;
+    opacity: 0.9;
+}
+.hl
+{
+    width: 500px;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 250px;
+}
+.bg-img
+{
+     background-image: url("images/cloth.jpg");
+
+  /* Control the height of the image */
+   height: 620px; 
+   width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+/*------------------------------------------------------------------------------*/
+/*---------------------------contact us----------------------------------------------*/
+.img_cont
+{
+   
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+    height: 500px;
+    width: 300px;
+    border-radius: 8px;     
+}
+.container_text
+{
+   
+    height: 200px;
+    width: 100%;
+   
+}
+.container_cont
+{
+    
+    height: 450px;
+    width: 1000px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #ccc;
+}
+.input_cont
+{
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 20px;
+}
+.input_mess
+{
+    margin-left: 20px;
+    padding: 20px;
+    height: 100px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.submit_btn_cont
+{
+   
+   width: 30%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  margin-top: 55px;
+ margin-left: 450px;
+}
+
+
+
